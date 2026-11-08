@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PointerPad — конфиденциальность</title>
+<link rel="icon" type="image/png" href="../favicon.png">
+<style>
+  :root { --bg: #09090e; --text: #ffffff; --muted: #a09fab; --accent: #b39bff; }
+  body { margin: 0; background: var(--bg); color: var(--text); font: 17px/1.6 -apple-system, BlinkMacSystemFont, system-ui, sans-serif; }
+  main { max-width: 720px; margin: 0 auto; padding: 40px 16px 80px; }
+  a { color: var(--accent); }
+  h1 { letter-spacing: -0.03em; }
+  h2 { margin-top: 32px; font-size: 20px; }
+  p, li { color: var(--muted); }
+</style>
+</head>
+<body>
+<main>
+  <p><a href="./">← PointerPad</a> · <a href="../privacy.html" lang="en">English</a></p>
+  <h1>Конфиденциальность</h1>
+  <p>Обновлено 8 ноября 2026 года.</p>
+
+  <h2>Коротко</h2>
+  <p>PointerPad не собирает, не хранит и не передаёт никаких ваших данных. У приложения нет серверов, аккаунтов, аналитики и рекламы.</p>
+
+  <h2>Что происходит на ваших устройствах</h2>
+  <ul>
+    <li>iPhone и Mac общаются напрямую по Bluetooth. Ваши команды в интернет не попадают.</li>
+    <li>Mac-приложение раз в день спрашивает у GitHub, какая версия последняя (api.github.com). Никаких данных о вас оно не отправляет; GitHub видит обычный запрос с вашего IP-адреса, как при открытии любого сайта. Выключить: «Проверять автоматически» в меню.</li>
+    <li>Приложение на iPhone читает датчики движения только в режиме указки — чтобы вычислить, куда направлен телефон. Эти данные сразу уходят на ваш Mac и нигде не сохраняются.</li>
+    <li>При сопряжении iPhone и Mac создают общий ключ и хранят его в Связке ключей на каждом устройстве. Он нужен, чтобы Mac принимал команды только от вашего iPhone.</li>
+    <li>Mac запоминает имя и идентификатор разрешённых iPhone, iPhone — имя вашего Mac. «Забыть устройства» в меню Mac и «Отключить этот Mac» на iPhone удаляют это.</li>
+    <li>Если вы пишете в поддержку, письмо содержит версии приложения и системы, модель устройства и состояние подключения — чтобы мы могли помочь. Вы видите всё это в Почте до отправки и можете удалить что угодно.</li>
+  </ul>
+
+  <h2>Разрешения</h2>
+  <ul>
+    <li>Bluetooth (iPhone и Mac) — связь между устройствами.</li>
+    <li>Датчики движения (iPhone) — режим указки.</li>
+    <li>Универсальный доступ (Mac) — двигать курсор, нажимать кнопки мыши и медиа-клавиши.</li>
+  </ul>
+
+  <h2>Контакты</h2>
+  <p>Вопросы: <a href="mailto:nordlight.apps@gmail.com?subject=PointerPad%20%E2%80%94%20%D0%BF%D0%BE%D0%B4%D0%B4%D0%B5%D1%80%D0%B6%D0%BA%D0%B0&amp;body=%0A%0A---%0A%D0%92%D0%B5%D1%80%D1%81%D0%B8%D1%8F%20PointerPad%20%D0%B4%D0%BB%D1%8F%20iPhone%3A%20%0A%D0%92%D0%B5%D1%80%D1%81%D0%B8%D1%8F%20PointerPad%20%D0%B4%D0%BB%D1%8F%20Mac%3A%20%0A%D0%9C%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C%20iPhone%20%D0%B8%20%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%8F%20iOS%3A%20%0A%D0%9C%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C%20Mac%20%D0%B8%20%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%8F%20macOS%3A%20%0A%D0%A7%D1%82%D0%BE%20%D1%81%D0%BB%D1%83%D1%87%D0%B8%D0%BB%D0%BE%D1%81%D1%8C%3A%20%0A%0A%28%D0%A1%D0%BE%D0%B2%D0%B5%D1%82%3A%20%C2%AB%D0%9D%D0%B0%D0%BF%D0%B8%D1%81%D0%B0%D1%82%D1%8C%20%D0%B2%20%D0%BF%D0%BE%D0%B4%D0%B4%D0%B5%D1%80%D0%B6%D0%BA%D1%83%C2%BB%20%D0%B2%D0%BD%D1%83%D1%82%D1%80%D0%B8%20%D0%BF%D1%80%D0%B8%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D1%8F%20%D0%B7%D0%B0%D0%BF%D0%BE%D0%BB%D0%BD%D0%B8%D1%82%20%D1%8D%D1%82%D0%BE%20%D1%81%D0%B0%D0%BC%D0%BE.%29">nordlight.apps@gmail.com</a>.</p>
+</main>
+</body>
+</html>
